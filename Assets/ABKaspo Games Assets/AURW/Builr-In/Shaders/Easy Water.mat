@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Easy Water
+  m_Shader: {fileID: -6465566751694194690, guid: 200e658dcbec1e84a861c3528f805c78, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Bigger_Normal:
+        m_Texture: {fileID: 2800000, guid: 48b0811a0212d464382d87c7f0a27821, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Foam_Normal:
+        m_Texture: {fileID: 2800000, guid: 803b40d65fa47e3468a71cf13785adf7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Foam_Texture:
+        m_Texture: {fileID: 2800000, guid: 535afe114b6bac242880b1e577aa2b62, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Main_Normal:
+        m_Texture: {fileID: 2800000, guid: 177fa9a2b62a6a54399f52d76323c3e3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Second_Normal:
+        m_Texture: {fileID: 2800000, guid: 61c9747d2e1adce409f45db5c03c7835, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _BUILTIN_QueueControl: 1
+    - _BUILTIN_QueueOffset: 49
+    - _Bigger_Speed: 0.1
+    - _Bigger_Tiling: 1
+    - _Depth: 0.03
+    - _Depth_Strength: 1
+    - _Fresnel: 1
+    - _Normal_Strength: 0.25
+    - _Refraction_Strength: 0
+    - _Smoothness: 0.85
+    - _Speed: 1
+    - _Tilling: 10
+    m_Colors:
+    - _Color_A: {r: 0, g: 0.19999987, b: 1, a: 1}
+    - _Color_B: {r: 0, g: 0.5, b: 1, a: 0.6}
+    - _Direction_A: {r: 1, g: -1, b: 0, a: 0}
+    - _Direction_B: {r: -1, g: 1, b: 0, a: 0}
+    - _Foam_Color: {r: 0.3207547, g: 0.3207547, b: 0.3207547, a: 0}
+  m_BuildTextureStacks: []
+--- !u!114 &7160104722995360126
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 639247ca83abc874e893eb93af2b5e44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 0
